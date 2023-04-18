@@ -1,9 +1,9 @@
 # EmoJeneration-DecisionTrees
 
 ## Table of Contents
-* [About] (#About)
-* [Results] (#Results)
-* [Acknowledgements] (#Acknowledgements)
+* [About](#About)
+* [Results](#Results)
+* [Acknowledgements](#Acknowledgements)
 
 ## About
 EmoJeneration uses Gradient Boosted Decision Trees to classify a tweet into an age group constructed around generational boundaries. The model is trained and tested on tweets that include emojis to investigate the different meanings that emojis may hold for each generation. 
