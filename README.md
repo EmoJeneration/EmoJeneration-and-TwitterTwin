@@ -3,7 +3,6 @@
 ## Table of Contents
 * [About](#About)
 * [Results](#Results)
-* [Installation](#Installation)
 * [Acknowledgements](#Acknowledgements)
 
 ## About
