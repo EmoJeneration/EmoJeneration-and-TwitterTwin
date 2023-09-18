@@ -52,9 +52,9 @@ To comprehensively assess the models' efficacy, we pursued a structured approach
 <details>
 <summary>Original Datset With TFIDF</summary>
 
-![Precision](image1.jpg)
-![Recall](image2.jpg)
-![F1](image3.jpg)
+![Precision](1111.png)
+![Recall](1112.png)
+![F1](1113.png)
 
 </details>
 
