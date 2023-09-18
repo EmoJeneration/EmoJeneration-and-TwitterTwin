@@ -2,9 +2,11 @@
 
 ## Table of Contents
 * [Introduction](#Introduction)
-* [EmoJeneration/TwitterTwin] (#EmoJeneration/TwitterTwin)
 * [Creating the Dataset](#Creating The Dataset)
 * [Model Development] (#Model Development)
+* [Results] (#Results)
+* [Conclusion] (#Conclusion)
+* [Exploratory Data Analysis] (#Exploratory Data Analysis)
 * [Acknowledgements](#Acknowledgements)
 
 ## Introduction
@@ -17,7 +19,7 @@ We aim to investigate if there are generational differences in the understanding
 Our research delves into the intricate relationship between emoji usage and generational characteristics, shedding light on the nuanced ways in which emojis function as a means of expression across different age groups. Understanding these dynamics is pivotal not only for interpersonal communication, but also for businesses seeking to connect with specific audiences and decode the intricate language of emojis in the digital era.
 
 
-## EmoJeneration/TwitterTwin
+## EmoJeneration and TwitterTwin
 ### Creating the Dataset
 
 #### Data Collection
@@ -93,10 +95,12 @@ In summary, our research has illuminated the significance of emojis in shaping o
 
 ### Exploratory Data Analysis
 Twitter twin is an exploratory project that investigates the language patterns of a broader population. It is an interactive model that inputs any twitter user’s handle and returns the celebrity from our database whose tweets most closely resembles the tweets of the inputted user. Due to the limitations of creating a dataset with verified ages, the broad scope of TwitterTwin provides valuable insight into trends between language and emoji usage.
-This model uses sentence transformers and an FAISS index to match inputted Twitter users to one of 19 Twitter celebrities based on semantic similarity. Inputted users typically match with someone in a similar field, for example Mitt Romney and Barack Obama. We found that average twitter users typically match with a select few out of our database, indicating that many verified celebrities on Twitter are not representative of the average user’s tweets. 
-The celebrities that match most frequently on TwitterTwin exhibit a casual Twitter presence, whereas the celebrities that match less frequently often contain promotional material for the celebrity’s personal projects, or ads.The language used in these promotions/ads differs from the casual and conversational style that is most prevalently found on Twitter. Further, promotional material is likely heavily edited or entirely written by the celebrity’s management. 
-Through TwitterTwin, we gained a better understanding of EmoJeneration’s dataset. Because EmoJeneration strictly uses verified users, the dataset contains a large amount of promotional material that is not representative of the average user’s language. This may affect the model’s training and accuracy scores, seeing as promotions tend to use particular language/emojis.
 
+This model uses sentence transformers and an FAISS index to match inputted Twitter users to one of 19 Twitter celebrities based on semantic similarity. Inputted users typically match with someone in a similar field, for example Mitt Romney and Barack Obama. We found that average twitter users typically match with a select few out of our database, indicating that many verified celebrities on Twitter are not representative of the average user’s tweets. 
+
+The celebrities that match most frequently on TwitterTwin exhibit a casual Twitter presence, whereas the celebrities that match less frequently often contain promotional material for the celebrity’s personal projects, or ads.The language used in these promotions/ads differs from the casual and conversational style that is most prevalently found on Twitter. Further, promotional material is likely heavily edited or entirely written by the celebrity’s management. 
+
+Through TwitterTwin, we gained a better understanding of EmoJeneration’s dataset. Because EmoJeneration strictly uses verified users, the dataset contains a large amount of promotional material that is not representative of the average user’s language. This may affect the model’s training and accuracy scores, seeing as promotions tend to use particular language/emojis.
 
 ## Acknowledgements
 Thank you to everyone at Data Science UCSB, especially our mentors Mehir Arora and Mateo Wang!
