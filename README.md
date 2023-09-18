@@ -17,14 +17,16 @@ Our research delves into the intricate relationship between emoji usage and gene
 
 
 ## EmoJeneration/TwitterTwin
-# Creating the Dataset
+## Creating the Dataset
 
 Data Collection
+
 We chose to extract data from Twitter because of the conversational and personal writing style it allows for, which provides excellent context for each user’s usage of emojis. To create our dataset, we recorded twitter handles and age groups (0-4, based on generational boundaries) from online lists of celebrities by age in order to verify the age of each user. 
 
 To obtain our dataset, we scraped 2100 of each celebrity's most recent emoji-containing, original tweets using rtweet. To ensure that we preserved the authentic voices of celebrities, we excluded retweets from our dataset. We only included tweets with emojis so as to focus the model’s understanding on the meaning and functionality of emojis, rather than their prevalence. 
 
-Cleaning 
+Cleaning
+
 We built a function to remove special characters, seeing as there are certain special characters, namely emojis, that are important to the model. We used langid to filter our dataset so that it was made up entirely of English tweets. Given that the list of Twitter users from which we scraped included many global celebrities, the language identification model flagged a considerable number of non-English tweets. The dataset went from 139,000 to 85,000 unique tweets.  We used NLTK to remove stop words and tokenize the tweets.
 
 We found that groups 1 and 2 had both the highest number of users and the most active twitter usage. Conversely, celebrities from groups 0 and 4, the oldest and youngest groups, had the lowest volume of tweets. This disproportionate representation resulted in an uneven dataset weighted towards groups 1 and 2. To amend this issue, we cut the dataset so that each group had the same number of tweets, and would therefore be represented equally by the model.
