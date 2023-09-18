@@ -1,4 +1,4 @@
-# EmoJeneration-DecisionTrees
+# EmoJeneration-and-TwitterTwin
 
 ## Table of Contents
 * [Introduction](#Introduction)
@@ -18,8 +18,6 @@ We aim to investigate if there are generational differences in the understanding
 
 Our research delves into the intricate relationship between emoji usage and generational characteristics, shedding light on the nuanced ways in which emojis function as a means of expression across different age groups. Understanding these dynamics is pivotal not only for interpersonal communication, but also for businesses seeking to connect with specific audiences and decode the intricate language of emojis in the digital era.
 
-
-## EmoJeneration and TwitterTwin
 ### Creating the Dataset
 
 #### Data Collection
