@@ -6,7 +6,7 @@
 * [Model Development](#Model-Development)
 * [Results](#Results)
 * [Conclusion](#Conclusion)
-* [Exploratory Data Analysis](#Exploratory-Data-Analysis)
+* [Exploratory Data Analysis: TwitterTwin](#Exploratory-Data-Analysis:-TwitterTwin)
 * [Acknowledgements](#Acknowledgements)
 
 ## Introduction
