@@ -48,6 +48,17 @@ XGBoost, a gradient-boosted decision tree framework, emerged as the optimal choi
 To comprehensively assess the models' efficacy, we pursued a structured approach by creating four distinct models. Two models were constructed for each data processing methodology, TF-IDF and BERTweet. The first set utilized the downsampled dataset, while the second set incorporated the augmented dataset. This allowed us to evaluate how the inclusion of more data impacts model performance. We conducted an extensive evaluation, measuring precision, recall, and F1 scores across all generational classes, in addition to overall model performance metrics. This rigorous analysis enabled us to gain valuable insights into the strengths and limitations of each model and data processing approach, ultimately guiding our selection of the most effective strategy for discerning generational boundaries in emoji usage.
 
 ### Results
+
+<details>
+<summary>Original Datset With TFIDF</summary>
+
+![Precision](image1.jpg)
+![Recall](image2.jpg)
+![F1](image3.jpg)
+
+</details>
+
+
 The model utilizing TF-IDF and gradient boosted decision trees with the downsampled dataset performed the best due to its consistency in precision, recall, and F1 scores among each group. This indicates the least amount of bias, as well as an overall prediction accuracy of about 53%. This model performed at a slightly higher accuracy using the augmented dataset (<1%), but had a higher standard deviation of recall scores.
 
 To evaluate the weight of the emojis over the TF-IDF model’s performance we removed the emojis from both the reduced and augmented datasets. This produced a significant decrease in the precision, recall, and F1 scores. Hence, emojis prove to be a valuable distinction between each generation’s communication style.
