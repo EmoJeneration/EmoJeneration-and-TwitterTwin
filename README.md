@@ -50,16 +50,46 @@ To comprehensively assess the models' efficacy, we pursued a structured approach
 ### Results
 
 <details>
-<summary>Original Datset With TFIDF</summary>
+<summary>Downsampled Datset With TFIDF</summary>
 
-![Precision](1111.png)
-![Recall](1112.png)
+![Precision](https://raw.githubusercontent.com/EmoJeneration/images/main/1111.png)
+![Recall](https://raw.githubusercontent.com/EmoJeneration/images/main/1112.png)
 ![F1](https://raw.githubusercontent.com/EmoJeneration/images/main/1113.png)
-![F1](https://github.com/EmoJeneration/images/blob/main/1113.png)
-
 
 </details>
 
+<details>
+<summary>Augmented Datset With TFIDF</summary>
+
+![Precision](https://raw.githubusercontent.com/EmoJeneration/images/main/2111.png)
+![Recall](https://raw.githubusercontent.com/EmoJeneration/images/main/2112.png)
+![F1](https://raw.githubusercontent.com/EmoJeneration/images/main/2113.png)
+
+</details>
+
+<details>
+<summary>Downsampled Datset With BERTweet</summary>
+
+![Precision](https://raw.githubusercontent.com/EmoJeneration/images/main/3111.png)
+![Recall](https://raw.githubusercontent.com/EmoJeneration/images/main/3112.png)
+![F1](https://raw.githubusercontent.com/EmoJeneration/images/main/3113.png)
+
+</details>
+
+<details>
+<summary>Augmented Datset With BERTweet</summary>
+
+![Precision](https://raw.githubusercontent.com/EmoJeneration/images/main/4111.png)
+![Recall](https://raw.githubusercontent.com/EmoJeneration/images/main/4112.png)
+![F1](https://raw.githubusercontent.com/EmoJeneration/images/main/4113.png)
+
+</details>
+<details>
+<summary>All Models</summary>
+
+![All Models](https://raw.githubusercontent.com/EmoJeneration/images/main/overall.png)
+
+</details>
 
 The model utilizing TF-IDF and gradient boosted decision trees with the downsampled dataset performed the best due to its consistency in precision, recall, and F1 scores among each group. This indicates the least amount of bias, as well as an overall prediction accuracy of about 53%. This model performed at a slightly higher accuracy using the augmented dataset (<1%), but had a higher standard deviation of recall scores.
 
