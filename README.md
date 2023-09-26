@@ -59,6 +59,8 @@ To comprehensively assess the models' efficacy, we pursued a structured approach
 
 ### Results
 
+https://raw.githubusercontent.com/EmoJeneration/images/main/overall.png
+
 <details>
 <summary>Downsampled Datset With TFIDF</summary>
 
@@ -92,12 +94,6 @@ To comprehensively assess the models' efficacy, we pursued a structured approach
 ![Precision](https://raw.githubusercontent.com/EmoJeneration/images/main/4111.png)
 ![Recall](https://raw.githubusercontent.com/EmoJeneration/images/main/4112.png)
 ![F1](https://raw.githubusercontent.com/EmoJeneration/images/main/4113.png)
-
-</details>
-<details>
-<summary>All Models</summary>
-
-![All Models](https://raw.githubusercontent.com/EmoJeneration/images/main/overall.png)
 
 </details>
 
