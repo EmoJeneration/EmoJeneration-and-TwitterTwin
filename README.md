@@ -2,6 +2,7 @@
 
 ## Table of Contents
 * [Introduction](#Introduction)
+* [Demo and Link](#Demo-and-Link)
 * [Creating the Dataset](#Creating-The-Dataset)
 * [Model Development](#Model-Development)
 * [Results](#Results)
@@ -17,6 +18,12 @@ In today's digital age, online communication is a fundamental part of our lives.
 We aim to investigate if there are generational differences in the understanding and functionality of emojis. We designed and implemented a predictive classification model utilizing gradient-boosted decision trees. This model classifies an inputted piece of text into one of five distinct generational groups. To ensure the model's accuracy and relevance, we constructed a dataset composed exclusively of tweets containing emojis. This dataset formed the basis for training and testing for the multiple models we experimented with, allowing us to finely tune their predictive capabilities. During the development phase, we employed advanced data processing, downsampling, and data augmentation techniques to optimize the model's performance.
 
 Our research delves into the intricate relationship between emoji usage and generational characteristics, shedding light on the nuanced ways in which emojis function as a means of expression across different age groups. Understanding these dynamics is pivotal not only for interpersonal communication, but also for businesses seeking to connect with specific audiences and decode the intricate language of emojis in the digital era.
+
+## Demo and Link
+
+https://github.com/EmoJeneration/EmoJeneration-and-TwitterTwin/assets/114437706/2e3ba260-810a-4267-85f0-7e498890c19e
+
+Link to EmoJeneration on HuggingFace: https://huggingface.co/spaces/olivianuzum/EmoJeneration 
 
 ## Creating the Dataset
 
