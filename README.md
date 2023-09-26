@@ -6,13 +6,13 @@
 * [Model Development](#Model-Development)
 * [Results](#Results)
 * [Conclusion](#Conclusion)
-* [Exploratory Data Analysis: TwitterTwin](#Exploratory-Data-Analysis:-TwitterTwin)
+* [TwitterTwin (Exploratory Data Analysis)](#TwitterTwin-(Exploratory-Data-Analysis))
 * [Acknowledgements](#Acknowledgements)
 
 ## Introduction
 ### Communicating with Modern-Day Hieroglyphics 
 
-In today's digital age, online communication is a fundamental part of our lives. In effect, the concept of an online voice, comprised by words and emojis, has become an integral and nuanced aspect of one’s identity both online and in person. Because tone is easily lost over online communication, emojis in particular have become an extremely valuable tool to communicate clearly and effectively.
+In today's digital age, online communication is a fundamental part of our lives. The concept of an online voice, comprised by words and emojis, has become an integral aspect of one’s identity both online and in person. Because tone is easily lost over online communication, emojis in particular have become an extremely valuable tool to communicate clearly and effectively.
 
 We aim to investigate if there are generational differences in the understanding and functionality of emojis. We designed and implemented a predictive classification model utilizing gradient-boosted decision trees. This model classifies an inputted piece of text into one of five distinct generational groups. To ensure the model's accuracy and relevance, we constructed a dataset composed exclusively of tweets containing emojis. This dataset formed the basis for training and testing for the multiple models we experimented with, allowing us to finely tune their predictive capabilities. During the development phase, we employed advanced data processing, downsampling, and data augmentation techniques to optimize the model's performance.
 
@@ -134,7 +134,7 @@ While there are numerous directions for improving our model, it's worth noting t
 ### Final Summary and Practical Applications
 In summary, our research has illuminated the significance of emojis in shaping online voices and has provided valuable insights into the predictability of age groups based on digital communication patterns. Understanding these dynamics is not only crucial for academic research but also has practical implications for businesses seeking to engage with specific audiences and harness the power of emojis as a tool for effective online communication. As online voices continue to evolve in response to cultural shifts and technological advancements, our study serves as a stepping stone toward a deeper understanding of the intricate language of emojis in the digital age.
 
-## Exploratory Data Analysis: TwitterTwin
+## TwitterTwin (Exploratory Data Analysis)
 Twitter twin is an exploratory project that investigates the language patterns of a broader population. It is an interactive model that inputs any twitter user’s handle and returns the celebrity from our database whose tweets most closely resembles the tweets of the inputted user. Due to the limitations of creating a dataset with verified ages, the broad scope of TwitterTwin provides valuable insight into trends between language and emoji usage.
 
 This model uses sentence transformers and an FAISS index to match inputted Twitter users to one of 19 Twitter celebrities based on semantic similarity. Inputted users typically match with someone in a similar field, for example Mitt Romney and Barack Obama. We found that average twitter users typically match with a select few out of our database, indicating that many verified celebrities on Twitter are not representative of the average user’s tweets. 
